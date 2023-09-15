@@ -1,34 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Monitor Asus = new Monitor(1920, 1080, "Asus", "Alexey");
-        Asus.setOwner("Andrey");
-        System.out.println(Asus.getOwner());
-        Asus.printResolution();
+        first lab1 = new first();
+        lab1.lab1();
+        second lab2 = new second();
+        lab2.lab2();
+        third lab3 = new third();
+        lab3.lab();
     }
 }
 
 
-class Monitor {
-    private int resolutionWidth;
-    private int resolutionHeight;
-    private String vendor;
-    private String owner;
-    public Monitor(int width, int height, String vendor, String owner) {
-        this.resolutionWidth = width;
-        this.resolutionHeight = height;
-        this.vendor = vendor;
-        this.owner = owner;
-    }
-
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
-
-    public String getOwner() {
-        return owner;
-    }
-
-    public void printResolution() {
-        System.out.println(resolutionWidth+"x"+resolutionHeight);
-    }
-}
