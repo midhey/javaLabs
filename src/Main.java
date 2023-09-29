@@ -6,6 +6,8 @@ public class Main {
         lab2.lab2();
         third lab3 = new third();
         lab3.lab();
+        fourth lab4 = new fourth();
+        lab4.lab();
     }
 }
 
