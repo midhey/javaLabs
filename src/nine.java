@@ -3,7 +3,6 @@ import java.util.*;
 public class nine {
     public void lab () {
         System.out.println("NINE LAB\n\n=================");
-        PhoneNetwork phoneBook = new PhoneNetwork();
         ConferenceApp.menu();
     }
 }
